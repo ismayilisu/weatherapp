@@ -44,8 +44,8 @@
     document.querySelector("#place").innerHTML=data.name;
     document.querySelector("#temp").innerHTML=`${data.main.temp} F`;
     document.querySelector("#value1").innerHTML=`${data.main.humidity} C`;
-    document.querySelector("#value1").innerHTML=`${data.main.humidity} KM/HR`;
-    document.querySelector("#value2").innerHTML=data.wind.speed;
+    // document.querySelector("#value1").innerHTML=`${data.main.humidity} KM/HR`;
+    document.querySelector("#value2").innerHTML=`${data.wind.speed} KM/HR`;
     // getimage(data.weather[0].main);
     
  }
